@@ -15,6 +15,8 @@ import { HeroesComponent }      from './heroes/heroes.component';
 import { HeroSearchComponent }  from './hero-search/hero-search.component';
 import { MessagesComponent }    from './messages/messages.component';
 import { UtilityComponent }     from './utility/utility.component';
+import { SettingsComponent } from './settings/settings.component';
+import { GuidComponent } from './guid/guid.component';
 
 @NgModule({
   imports: [
@@ -37,7 +39,9 @@ import { UtilityComponent }     from './utility/utility.component';
     HeroDetailComponent,
     MessagesComponent,
     HeroSearchComponent,
-    UtilityComponent
+    UtilityComponent,
+    SettingsComponent,
+    GuidComponent
   ],
   bootstrap: [ AppComponent ]
 })
